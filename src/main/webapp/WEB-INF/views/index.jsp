@@ -8,7 +8,7 @@
     <h1>${msg}</h1>
     <h3>T_T</h3>
     <h1>Hi, there (updated by dong hyun)</h1>
-    <h1>오늘은 2024.05.22 23:10</h1>
+    <h1>now 2024.05.22 23:10</h1>
     <h2>Today is <fmt:formatDate value="${today}" pattern="yyyy-MM-dd" /></h2>
     <h3>Version: 3.1</h3>
 </body>
