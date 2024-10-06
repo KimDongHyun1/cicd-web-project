@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.Date;
 
@@ -22,6 +23,11 @@ public class WelcomeController {
         System.out.println(model.getAttribute("today"));
         return "index";
 
+    }
+
+    @GetMapping("/test")
+    public @ResponseBody String test() {
+        return "test !!!";
     }
 
     private String getMessage() {
